@@ -1,0 +1,1 @@
+This App generates QR codes for the given Texts
