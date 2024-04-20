@@ -3,7 +3,7 @@ let qrimage = document.querySelector(".qrimage");
 let qrbox = document.querySelector(".image");
 let subcontain = document.querySelector(".subcontainer");
 let p = document.createElement("span");
-// let delimage = document.querySelector(".inputimg");
+
 
 function generateqrimg(){
     if(inputtext.value.length > 0){
@@ -26,6 +26,5 @@ function deleteqr(){
     inputtext.value = '';
     qrimage.src = '';
     qrbox.classList.remove("show-img");
-
 }
 

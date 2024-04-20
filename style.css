@@ -121,12 +121,11 @@ body{
     .container{
         max-width: 90vw;
     }
-    .container p{   
+    .container .head{   
         font-size: 1rem;
     }
     .inputtext{
         font-size: 0.75rem;
-        margin: 15px 0px 16px;
     }
     .image{
         height: 150px;
@@ -144,11 +143,11 @@ body{
         font-weight: 600;
     }
 }
-@media  screen and (min-width:370px) and (max-width:450px) {
+@media  screen and (min-width:370px) and (max-width:470px) {
     .container{
         max-width: 80vw;
     }
-    .container p{   
+    .container .head{   
         font-size: 1.30rem;
     }
     .image.show-img{
@@ -160,7 +159,7 @@ body{
         height: 150px;
     }
 }
-@media  screen and (min-width:450px) and (max-width: 600px) {
+@media  screen and (min-width:470px) and (max-width: 600px) {
     .container{
         max-width: 70vw;
     }
