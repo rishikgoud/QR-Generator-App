@@ -25,6 +25,7 @@ function deleteqr(){
     p.innerHTML = '';
     inputtext.value = '';
     qrimage.src = '';
+    p.classList.remove('showimg');
     qrbox.classList.remove("show-img");
 }
 
